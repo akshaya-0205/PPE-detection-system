@@ -1,0 +1,44 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Environments
+train_env/
+venv/
+env/
+.env
+
+# Datasets & Big Files
+merged_dataset/
+merged_dataset_fixed/
+*.zip
+*.tar.gz
+
+# Model Backups & Run Artifacts
+runs/
+weights/
+best_backup_prev.pt
+best_original.pt
+output/
+before_after_comparison/
+label_qc_contact_sheets/
+archive/
+ffmpeg/
+
+# Local/IDE Files & Misc
+.vscode/
+.agents/
+skills-lock.json
+simply.txt
+headload_train_list.txt
+headload_valid_list.txt
+test_crop.jpg
+debug_annotated.jpg
+violation_logs.csv
+
+# Allow Model & Visual Assets
+!best.pt
+!latest_model_curves/
+!yolov8_ppe_dataflow_architecture.*
